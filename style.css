@@ -1,0 +1,96 @@
+/* Style for table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Table header styling */
+th {
+    background-color: grey;  /* Blue background for table headers */
+    color: white;  /* White text for contrast */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table cells */
+td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Centering headers */
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+/* Center the form on the page */
+.form-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Style the form */
+form {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust width as needed */
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center form header */
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+/* Style form inputs */
+input, select {
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Gender and Interests sections */
+.gender-group, .interests-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button styling */
+button {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Style for header section */
+.header {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
